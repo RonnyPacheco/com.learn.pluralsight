@@ -9,7 +9,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
     @Override
     public List<Speaker> findAll() {
-        List<Speaker> speakers = new ArrayList<Speaker>();
+        List<Speaker> speakers = new ArrayList<>();
         Speaker speaker = new Speaker();
         speaker.setFirstName("Ronny");
         speaker.setLastName("Pacheco");
